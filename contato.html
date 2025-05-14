@@ -6,25 +6,25 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+
+		<link rel="stylesheet" href="./assets/css/style.css">
 		<title>Meu Perfil</title>
 	</head>
 	<body>
-		<!-- Cabeçalho da Página (header) -->
 		<header>
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
-				<!-- Titulo do Cabeçalho -->
+
+			<div id="header_content" class=" header_content flex">
+
 				<div id="titulo">
-					<!-- Seu nome -->
-					<h1>Generation Brasil</h1>
+
+					<h1>Camille Tarine</h1>
+
 				</div>
 
-				<!-- Conteudo do Menu da Página (header) -->
-				<div id="menu">
-					<!-- Menu da Página -->
+
+				<div id="menu" class="menu">
 					<nav>
-						<!-- Marcadores não ordenados + links -->
-						<ul id="menu">
+						<ul id="menu" class="menu">
 							<li>
 								<a href="index.html"> Home </a>
 							</li>
@@ -37,13 +37,10 @@
 			</div>
 		</header>
 
-		<!-- Seção Principal da Página (main) -->
 		<main>
 
-			 <!-- Seção Formulário de Contato e Redes Sociais -->
-             <section id="contact">
+             <div id="contact" class="contact flex">
 
-                <!-- Seção do Formulário -->
                 <form action="#" method="submit" id="formulario">
                     <label for="name">Nome: </label>
                     <input id="name" type="text" name="name" placeholder="Digite seu nome"/>
@@ -63,48 +60,41 @@
                     <button type="submit">Enviar</button>
                 </form>
 
-                <!-- Seção do Google Maps -->
-                <article id="mapa">
-                    <p>Travessa dos Paralelos, 30</p>
+                <section id="mapa" class="mapa">
+                    <p>Jardim Novo Horizonte</p>
                         <p>São Paulo - SP</p>
 
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0657270902143!2d-46.6975417!3d-23.780673700000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce48e83529215d%3A0x66795cf83e46d197!2sTv.%20dos%20Paralelos%2C%2030%20-%20Jardim%20Marilda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004857-510!5e0!3m2!1spt-BR!2sbr!4v1747073461313!5m2!1spt-BR!2sbr" 
-                        width="400" 
-                        height="300" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
-                        >
-                    </iframe>
-
-                </article>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14604.149806263287!2d-46.70302855537113!3d-23.781680658381255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce48eb7227a769%3A0x9f26014085b1448e!2sJardim%20Novo%20Horizonte%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1747250513485!5m2!1spt-BR!2sbr" 
+						width="400" 
+						height="300" 
+						style="border:0;" 
+						allowfullscreen="" 
+						loading="lazy" 
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
                 
-            </section>
+            </div>
 
 		</main>
 
-		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
 
-			<!-- Seção de Contato - Redes Sociais -->
-            <section id="redes_sociais">
-
-                    <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
-                    </a>
-
-            </section>
+            <section id="redes_sociais" class="redes_sociais">
+            
+				<a href="https://www.linkedin.com/in/camille-tarine/" target="_blank" >
+					<img class="social_icon" src="assets/img/linkedin.svg" alt="Linkedin"/>
+				</a>
+				<a href="https://github.com/CahTarine" target="_blank">
+					<img class="social_icon" src="assets/img/github.svg" alt="Github"/>
+				</a>
+				<a href="https://www.instagram.com/camille.tarine?igsh=MWhyYnJuNzFrd29lbQ==" target="_blank">
+					<img class="social_icon" src="assets/img/instagram.svg" alt="Instagram"/>
+				</a>
+	
+			</section>
 
 			<h3>
-				Feito com 🧡 por Camille Tarine - 2024
+				Feito com ❤️ por Camille Tarine - 2024
 			</h3>
 
 		</footer>

@@ -6,19 +6,21 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Camille Tarine">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg"/>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 <body>
     <header>
-        <div id="header_content">
+        <div id="header_content" class="header_content flex">
             <div id="titulo">
                 <h1>Camille Tarine</h1>
             </div>
 
-            <div id="menu">
+            <div id="menu" class="menu">
                 <nav>
-                    <ul id="menu">
+                    <ul id="menu" class="menu">
                         <li>
                             <a href="index.html"> Home </a>
                         </li>
@@ -32,26 +34,34 @@
     </header>
 
     <main>
-        <section id="about">
+        <section id="about" class="about flex_start">
+
             <h2>Sobre mim</h2>
-            <div id="conteudo">
+
+            <div id="conteudo" class="conteudo flex">
+
                 <img
                     src="https://ik.imagekit.io/azppehmrv/IMG_20250312_202432.jpg?updatedAt=1747074029202"
                     alt="Foto do criador desse conteudo"
+
+                    class="img_profile"
                 />
 
                 <article id="sobre_texto">
                     <p>
                         Olá, seja bem-vindo(a)!
+
                         Eu me chamo Camille, tenho 19 anos de idade e grande paixão pela área de programação. Sou estudante de Análise e Desenvolvimento de Sistemas e, através de cursos e bootcamps, venho me aprofundando em desenvolvimento Full Stack utilizando Java, Spring Boot, JavaScript, TypeScript, HTML, CSS, React, Tailwind e SQL.
                         
                     </p>
                 </article>
             </div>
         </section>
-        <section id="video">
+
+        <section id="video" class="video flex_start">
             <h2>Meu video favorito</h2>
-            <div id="youtube">
+
+            <div id="youtube" class="flex">
                 <iframe 
                 width="560" 
                 height="315" 
@@ -65,21 +75,23 @@
         </section>
     </main>
 
-    <footer>
-        <section id="redes_sociais">
-            <a href="">
-                <img src="assets/img/linkedin.svg" alt="Linkedin"/>
+    <footer class="flex">
+
+        <section id="redes_sociais" class="redes_sociais">
+
+            <a href="https://www.linkedin.com/in/camille-tarine/" target="_blank" >
+                <img class="social_icon" src="assets/img/linkedin.svg" alt="Linkedin"/>
             </a>
-            <a href="">
-                <img src="assets/img/github.svg" alt="Github"/>
+            <a href="https://github.com/CahTarine" target="_blank">
+                <img class="social_icon" src="assets/img/github.svg" alt="Github"/>
             </a>
-            <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram"/>
+            <a href="https://www.instagram.com/camille.tarine?igsh=MWhyYnJuNzFrd29lbQ==" target="_blank">
+                <img class="social_icon" src="assets/img/instagram.svg" alt="Instagram"/>
             </a>
 
         </section>
 
-        <h3>Feito com 🧡 por Camille Tarine - 2024</h3>
+        <h3>Feito com ❤️ por Camille Tarine - 2024</h3>
     </footer>
 </body>
 </html>
