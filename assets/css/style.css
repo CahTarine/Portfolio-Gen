@@ -27,6 +27,7 @@ html {
 }
 
 body {
+    height: 100vh;
     background: var(--gray-200);
     color: var(--black-800);
 }
@@ -165,6 +166,8 @@ footer {
 .contact {
     flex-direction: row;
     gap: 2rem;
+    min-height: calc(100vh - 200px);
+    padding-bottom: 30px
 }
 
 form {
